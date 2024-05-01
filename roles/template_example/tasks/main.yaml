@@ -1,0 +1,11 @@
+- file:
+    path: output
+    state: directory
+
+- template:
+    src: thing1/example.j2.txt
+    dest: output/example1.txt
+
+- template:
+    src: thing2/example.j2.txt
+    dest: output/example2.txt
